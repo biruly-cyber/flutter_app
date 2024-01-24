@@ -1,3 +1,4 @@
+import "package:first_app/widget/drawer.dart";
 import "package:flutter/material.dart";
 
 class HomePage extends StatelessWidget {
@@ -5,15 +6,21 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Blurock"),
+        title: const Text(
+            "Blurock",
+          style: TextStyle(
+            color: Colors.white
+          ),
+        ),
         backgroundColor: Colors.deepPurple,
-      ),
-      body: Center(
-        child: Container(
-          child: Text("hi flutter  fo  days."),
+        iconTheme: const IconThemeData(
+          color: Colors.white
         ),
       ),
-      drawer: const Drawer(),
+      body: const Center(
+        child:  Text("hi flutter  fo  days."),
+      ),
+      drawer: const MyDrawer(),
     );
   }
 }
