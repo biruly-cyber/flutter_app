@@ -39,12 +39,47 @@ class _HomePageState extends State<HomePage> {
           color: Colors.white,
         ),
       ),
-      body:(CatalogueModel.items.isNotEmpty) ? ListView.builder(
-        itemCount: CatalogueModel.items.length,
-        itemBuilder: (context, index) {
-          return ItemWidget(item: CatalogueModel.items[index]);
-        },
-      ): const Center(child: CircularProgressIndicator(),),
+      body:(CatalogueModel.items.isNotEmpty) ? Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: GridView.builder(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisSpacing: 16, //for vertical spacing
+                crossAxisSpacing: 16 // for horizontal spacing
+            ),
+            itemBuilder: (context, index){
+              final item = CatalogueModel.items[index];
+
+              return Card(
+                clipBehavior: Clip.antiAlias,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                ),
+                child: GridTile(
+                  header: Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: const BoxDecoration(
+                        
+                      ),
+                      child: Text(item.name),
+
+                  ),
+                  footer: Text("\$${item.price}"),
+                  child: Image.network(item.image_url),
+                ),
+              );
+
+            },
+          itemCount: CatalogueModel.items.length,
+        ),
+      )
+      // ListView.builder(
+      //   itemCount: CatalogueModel.items.length,
+      //   itemBuilder: (context, index) {
+      //     return ItemWidget(item: CatalogueModel.items[index]);
+      //   },
+      // )
+      : const Center(child: CircularProgressIndicator(),),
       drawer: const MyDrawer(),
     );
   }
