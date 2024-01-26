@@ -1,27 +1,6 @@
 
 class CatalogueModel{
-    static  List<Item> items = [
-      Item(
-        id: 1,
-        name: "Laptop",
-        description: "Powerful laptop with high-performance specifications.",
-        category: "Electronics",
-        price: 999.99,
-        stock: 50,
-        image_url: "https://cdn.thewirecutter.com/wp-content/media/2023/06/bestlaptops-2048px-9765.jpg",
-        hexColor: "#0000FF",
-      ),
-      Item(
-        id: 1,
-        name: "Mobile",
-        description: "Powerful mobile with high-performance specifications.",
-        category: "Electronics",
-        price: 9.99,
-        stock: 50,
-        image_url: "https://img.freepik.com/free-psd/smartphone-mockup_1310-920.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705795200&semt=ais",
-        hexColor: "#0000FF",
-      ),
-    ];
+    static  List<Item> items = [];
 }
 
 class Item{
@@ -48,18 +27,19 @@ class Item{
 
   // constructor for json data
 
-  factory Item.fromMap(Map<String, dynamic> map){
+  factory Item.fromMap(Map<String, dynamic> map) {
     return Item(
-      id: map["id"],
-      name: map["name"],
-      category: map["category"],
-      price: map["price"],
-      stock: map["stock"],
-      image_url: map["image_url"],
-      description: map["description"],
-      hexColor: map["hexColor"]
+      id: map["id"] ?? 0, // Replace 0 with the default value for id
+      name: map["name"] ?? "", // Replace "" with the default value for name
+      category: map["category"] ?? "", // Replace "" with the default value for category
+      price: map["price"] ?? 0, // Replace 0 with the default value for price
+      stock: map["stock"] ?? 0, // Replace 0 with the default value for stock
+      image_url: map["image_url"] ?? "", // Replace "" with the default value for image_url
+      description: map["description"] ?? "", // Replace "" with the default value for description
+      hexColor: map["hexColor"] ?? "", // Replace "" with the default value for hexColor
     );
   }
+
 
   // convert map data to json
   toMap()=>{

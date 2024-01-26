@@ -39,18 +39,20 @@ class _HomePageState extends State<HomePage> {
           color: Colors.white,
         ),
       ),
-      body: ListView.builder(
+      body:(CatalogueModel.items.isNotEmpty) ? ListView.builder(
         itemCount: CatalogueModel.items.length,
         itemBuilder: (context, index) {
           return ItemWidget(item: CatalogueModel.items[index]);
         },
-      ),
+      ): const Center(child: CircularProgressIndicator(),),
       drawer: const MyDrawer(),
     );
   }
 
   //handle for load json data
   void loadData() async{
+
+    await Future.delayed(const Duration(seconds: 2));
 
        final catalogJson =  await rootBundle.loadString("assets/files/catalog.json");// here we find the local file from the local device storage
        //now we have to decode the json file using dart converter library

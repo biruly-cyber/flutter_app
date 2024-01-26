@@ -6,7 +6,7 @@
       "category": "Electronics",
       "price": 999.99,
       "stock": 50,
-      "image_url": "https://example.com/laptop.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Powerful laptop with high-performance specifications.",
       "hex_color": "#0000FF"
     },
@@ -16,7 +16,7 @@
       "category": "Electronics",
       "price": 499.99,
       "stock": 100,
-      "image_url": "https://example.com/smartphone.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Feature-rich smartphone with advanced camera capabilities.",
       "hex_color": "#00FF00"
     },
@@ -26,7 +26,7 @@
       "category": "Sports",
       "price": 79.99,
       "stock": 200,
-      "image_url": "https://example.com/runningshoes.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Comfortable running shoes designed for long-distance runners.",
       "hex_color": "#FF0000"
     },
@@ -36,7 +36,7 @@
       "category": "Electronics",
       "price": 299.99,
       "stock": 30,
-      "image_url": "https://example.com/digitalcamera.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "High-resolution digital camera with professional features.",
       "hex_color": "#800080"
     },
@@ -46,7 +46,7 @@
       "category": "Home Appliances",
       "price": 49.99,
       "stock": 75,
-      "image_url": "https://example.com/coffeemaker.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Compact coffee maker for brewing your favorite coffee at home.",
       "hex_color": "#A52A2A"
     },
@@ -56,7 +56,7 @@
       "category": "Electronics",
       "price": 129.99,
       "stock": 50,
-      "image_url": "https://example.com/wirelessheadphones.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Premium wireless headphones with noise-cancellation technology.",
       "hex_color": "#008000"
     },
@@ -66,7 +66,7 @@
       "category": "Fashion",
       "price": 39.99,
       "stock": 120,
-      "image_url": "https://example.com/backpack.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Stylish and durable backpack for everyday use.",
       "hex_color": "#800000"
     },
@@ -76,7 +76,7 @@
       "category": "Sports",
       "price": 69.99,
       "stock": 80,
-      "image_url": "https://example.com/fitnesstracker.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Smart fitness tracker to monitor your health and workouts.",
       "hex_color": "#008080"
     },
@@ -86,7 +86,7 @@
       "category": "Furniture",
       "price": 149.99,
       "stock": 25,
-      "image_url": "https://example.com/deskchair.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Ergonomic desk chair for comfortable office or home use.",
       "hex_color": "#FFA500"
     },
@@ -96,7 +96,7 @@
       "category": "Electronics",
       "price": 89.99,
       "stock": 40,
-      "image_url": "https://example.com/portablespeaker.jpg",
+      "image_url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png",
       "description": "Compact and portable speaker with high-quality sound.",
       "hex_color": "#4B0082"
     }
