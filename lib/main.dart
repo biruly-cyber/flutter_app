@@ -1,5 +1,6 @@
 import "package:first_app/pages/home_page.dart";
 import "package:first_app/pages/login_page.dart";
+import "package:first_app/tutorial/scaffold_tuto_page.dart";
 import "package:first_app/utils/routes.dart";
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
@@ -25,9 +26,9 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark
       ),
-      initialRoute: MyRoutes.homeRoutes,
+      // initialRoute: MyRoutes.scaffoldRoutes,
       routes: {
-        "/" :  (context) => const LoginPage(),
+        "/" :  (context) => const ScaffoldPage(),
         MyRoutes.homeRoutes :  (context) => HomePage(),
         MyRoutes.loginRoutes : (context) => const LoginPage()
       },
